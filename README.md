@@ -1,6 +1,6 @@
 # Bamazon
 
-## Bamazon is a Amazon-like storefront. The app will take in orders from customers and deplete stock from the store's inventory. 
+   Bamazon is a Amazon-like storefront. The app will take in orders from customers and deplete stock from the store's inventory. 
 
  ![picture alt](http://i37.photobucket.com/albums/e81/michaelxiong_/For%20School/bamazonGIF_zpsw5btjmlx.gif)
 
