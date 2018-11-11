@@ -2,64 +2,32 @@
 
 LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a _Language_ Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.
 
- ![picture alt](https://imageshack.com/a/img922/9389/y90K5n.gif)
+ ![picture alt](http://i37.photobucket.com/albums/e81/michaelxiong_/For%20School/bamazonGIF_zpsw5btjmlx.gif)
 
 ## NPM packages used
 
-   * [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api)
+   * [MySQL](https://www.npmjs.com/package/mysql)
 
-   * [Request](https://www.npmjs.com/package/request)
-
-   * [Moment](https://www.npmjs.com/package/moment)
-
-   * [DotEnv](https://www.npmjs.com/package/dotenv)
+   * [Inquirer](https://www.npmjs.com/package/inquirer)
    
-## Request to grab data(API) from:
+### To use this project, using Bash, Powershell, VS Code Terminal, etc... first type in 'node bamazon.js'
+
+   * The app should then prompt users with two messages.
+
+    * The first should ask them the ID of the product they would like to buy.
+    
+    * The second message should ask how many units of the product they would like to buy.
+    
+### Once the customer has placed the order, your application should check if your store has enough of the product to meet the customer's request.
    
-   * [OMDB API](http://www.omdbapi.com)
+    * If not, the app should log a phrase like `Insufficient quantity!`, and then prevent the order from going through.
+    
+   * However, if your store _does_ have enough of the product, you should fulfill the customer's order.
    
-   * [Bands In Town API](http://www.artists.bandsintown.com/bandsintown-api)
-   
-### To use this project, using Bash, Powershell, VS Code Terminal, etc... first type in 'node liri.js' followed by the following commands:
-   
-   **_Keep in mind you can only make one of the following commands at a time_**
-
-   * `concert-this` -- then followed by the name of a **band** *or a **single artist**
-          
-          * Name of the venue
-
-          * Venue location
-
-          * Date of the Event (use moment to format this as "MM/DD/YYYY")
-
-   * `spotify-this-song` -- then followed by a **title** of a **song**
-          
-           * Artist(s)
-
-           * The song's name
-
-           * A preview link of the song from Spotify
-
-           * The album that the song is from
-
-   * `movie-this` -- then followed by a **title** of a **movie**
-   
-           * Title of the movie.
-           
-           * Year the movie came out.
-           
-           * IMDB Rating of the movie.
-           
-           * Rotten Tomatoes Rating of the movie.
-           
-           * Country where the movie was produced.
-           
-           * Language of the movie.
-           
-           * Plot of the movie.
-           
-           * Actors in the movie.
-
-   * `do-what-it-says` -- then followed by **pressing enter**
-   
-           * It should run `spotify-this-song` for "I Want it That Way"
+    * This means updating the SQL database to reflect the remaining quantity.
+    
+    * Once the update goes through, show the customer the total cost of their purchase.
+    
+    * The Bamazon app would then update the inventory and display the current amount of items in stock after item(s) is/are bought.
+    
+### Happy Shopping!!!
