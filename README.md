@@ -1,6 +1,6 @@
 # Bamazon
 
-LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a _Language_ Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.
+## Bamazon is a Amazon-like storefront. The app will take in orders from customers and deplete stock from the store's inventory. 
 
  ![picture alt](http://i37.photobucket.com/albums/e81/michaelxiong_/For%20School/bamazonGIF_zpsw5btjmlx.gif)
 
